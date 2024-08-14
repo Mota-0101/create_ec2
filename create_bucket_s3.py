@@ -8,5 +8,6 @@ response = s3_client.create_bucket(
     Bucket=bucket_name,
 )
 
+
 print(response)
 print(f'Bucket s3 "{bucket_name}" criado com sucesso.')
